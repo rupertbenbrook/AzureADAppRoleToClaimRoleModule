@@ -1,11 +1,11 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("ClaimsRolesToRolesModule")]
+[assembly: AssemblyTitle("AzureADAppRoleToClaimRoleModule")]
 [assembly: AssemblyDescription("Copies Azure AD application role claims to ClaimsIdentity role claims.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Rupert Benbrook")]
-[assembly: AssemblyProduct("ClaimsRolesToRolesModule")]
+[assembly: AssemblyProduct("AzureADAppRoleToClaimRoleModule")]
 [assembly: AssemblyCopyright("Copyright © Rupert Benbrook 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

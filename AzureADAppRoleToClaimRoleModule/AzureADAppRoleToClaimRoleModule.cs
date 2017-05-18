@@ -3,9 +3,9 @@ using System.Linq;
 using System.Security.Claims;
 using System.Web;
 
-namespace ClaimsRolesToRolesModule
+namespace AzureADAppRoleToClaimRoleModule
 {
-    public class ClaimsRolesToRolesModule : IHttpModule
+    public class AzureADAppRoleToClaimRoleModule : IHttpModule
     {
 
         public void Init(HttpApplication context)

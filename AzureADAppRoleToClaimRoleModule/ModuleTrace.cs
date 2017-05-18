@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Security.Claims;
 
-namespace ClaimsRolesToRolesModule
+namespace AzureADAppRoleToClaimRoleModule
 {
     public static class ModuleTrace
     {

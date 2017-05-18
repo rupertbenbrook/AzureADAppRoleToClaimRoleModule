@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <system.web>
+    <httpModules>
+      <add name="AzureADAppRoleToClaimRoleModule" type="AzureADAppRoleToClaimRoleModule.AzureADAppRoleToClaimRoleModule, AzureADAppRoleToClaimRoleModule"/>
+    </httpModules>
+  </system.web>
+  <system.webServer>
+    <modules>
+      <add name="AzureADAppRoleToClaimRoleModule" type="AzureADAppRoleToClaimRoleModule.AzureADAppRoleToClaimRoleModule, AzureADAppRoleToClaimRoleModule" />
+    </modules>
+  </system.webServer>
+</configuration>

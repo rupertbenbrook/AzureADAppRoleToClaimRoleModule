@@ -6,8 +6,8 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://github.com/rupertbenbrook/ClaimsRolesToRolesModule</licenseUrl>
-    <projectUrl>https://github.com/rupertbenbrook/ClaimsRolesToRolesModule</projectUrl>
+    <licenseUrl>https://github.com/rupertbenbrook/AzureADAppRoleToClaimRoleModule</licenseUrl>
+    <projectUrl>https://github.com/rupertbenbrook/AzureADAppRoleToClaimRoleModule</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>Initial release.</releaseNotes>

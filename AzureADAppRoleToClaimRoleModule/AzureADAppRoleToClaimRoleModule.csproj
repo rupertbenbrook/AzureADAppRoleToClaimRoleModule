@@ -7,8 +7,8 @@
     <ProjectGuid>{B43EB084-D220-4DFE-939B-F0096BC193E3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClaimsRolesToRolesModule</RootNamespace>
-    <AssemblyName>ClaimsRolesToRolesModule</AssemblyName>
+    <RootNamespace>AzureADAppRoleToClaimRoleModule</RootNamespace>
+    <AssemblyName>AzureADAppRoleToClaimRoleModule</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -39,12 +39,12 @@
     <Reference Include="System.Web" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClaimsRolesToRolesModule.cs" />
+    <Compile Include="AzureADAppRoleToClaimRoleModule.cs" />
     <Compile Include="ModuleTrace.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClaimsRolesToRolesModule.nuspec" />
+    <None Include="AzureADAppRoleToClaimRoleModule.nuspec" />
     <Content Include="Web.config.transform" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
