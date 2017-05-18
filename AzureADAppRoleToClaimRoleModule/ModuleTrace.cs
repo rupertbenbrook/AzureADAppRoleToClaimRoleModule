@@ -7,22 +7,22 @@ namespace AzureADAppRoleToClaimRoleModule
     {
         public static void ModuleInit()
         {
-            Trace.TraceInformation("ClaimsRolesToRolesModule: Init");
+            Trace.TraceInformation("AzureADAppRoleToClaimRoleModule: Init");
         }
 
         public static void ModuleDispose()
         {
-            Trace.TraceInformation("ClaimsRolesToRolesModule: Dispose");
+            Trace.TraceInformation("AzureADAppRoleToClaimRoleModule: Dispose");
         }
 
         public static void ModulePostAuthenticate()
         {
-            Trace.TraceInformation("ClaimsRolesToRolesModule: Post Authenticate");
+            Trace.TraceInformation("AzureADAppRoleToClaimRoleModule: Post Authenticate");
         }
 
         public static void AddedClaim(Claim claim)
         {
-            Trace.TraceInformation("ClaimsRolesToRolesModule: Added claim {0}", claim);
+            Trace.TraceInformation("AzureADAppRoleToClaimRoleModule: Added claim {0}", claim);
         }
     }
 }
