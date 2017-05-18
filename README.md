@@ -20,18 +20,18 @@ Azure App Service authentication:
 https://blogs.msdn.microsoft.com/waws/2017/03/09/azure-app-service-authentication-app-roles/
 
 # Installation
-* Copy ClaimsRolesToRolesModule.dll and ClaimsRolesToRolesModule.pdb to the website bin/ folder
+* Copy AzureADAppRoleToClaimRoleModule.dll and AzureADAppRoleToClaimRoleModule.pdb to the website bin/ folder
 * Update the Web.config to load the module:
 ```xml
 <configuration>
   <system.web>
     <httpModules>
-      <add name="ClaimsRolesToRolesModule" type="ClaimsRolesToRolesModule.ClaimsRolesToRolesModule, ClaimsRolesToRolesModule"/>
+      <add name="AzureADAppRoleToClaimRoleModule" type="AzureADAppRoleToClaimRoleModule.AzureADAppRoleToClaimRoleModule, AzureADAppRoleToClaimRoleModule"/>
     </httpModules>
   </system.web>
   <system.webServer>
     <modules>
-      <add name="ClaimsRolesToRolesModule" type="ClaimsRolesToRolesModule.ClaimsRolesToRolesModule, ClaimsRolesToRolesModule" />
+      <add name="AzureADAppRoleToClaimRoleModule" type="AzureADAppRoleToClaimRoleModule.AzureADAppRoleToClaimRoleModule, AzureADAppRoleToClaimRoleModule" />
     </modules>
   </system.webServer>
 </configuration>
