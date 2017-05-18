@@ -5,8 +5,6 @@ using System.Web;
 
 namespace ClaimsRolesToRolesModule
 {
-    // https://blogs.msdn.microsoft.com/waws/2017/03/09/azure-app-service-authentication-app-roles/
-
     public class ClaimsRolesToRolesModule : IHttpModule
     {
 

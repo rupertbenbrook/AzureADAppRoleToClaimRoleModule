@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("ClaimsRolesToRolesModule")]
-[assembly: AssemblyDescription("Copies Azure Active Directory application role claims to ClaimsIdentity role claims.")]
+[assembly: AssemblyDescription("Copies Azure AD application role claims to ClaimsIdentity role claims.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Rupert Benbrook")]
 [assembly: AssemblyProduct("ClaimsRolesToRolesModule")]
