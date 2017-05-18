@@ -43,5 +43,9 @@
     <Compile Include="ModuleTrace.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ClaimsRolesToRolesModule.nuspec" />
+    <Content Include="Web.config.transform" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
