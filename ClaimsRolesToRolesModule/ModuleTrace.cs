@@ -20,9 +20,9 @@ namespace ClaimsRolesToRolesModule
             Trace.TraceInformation("ClaimsRolesToRolesModule: Post Authenticate");
         }
 
-        public static void ClaimCopy(Claim source, Claim destination)
+        public static void AddedClaim(Claim claim)
         {
-            Trace.TraceInformation("ClaimsRolesToRolesModule: Copied claim {0} to claim {1}", source, destination);
+            Trace.TraceInformation("ClaimsRolesToRolesModule: Added claim {0}", claim);
         }
     }
 }

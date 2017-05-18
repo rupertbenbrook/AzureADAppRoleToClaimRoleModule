@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Security.Claims;
 using System.Web;
 
@@ -26,11 +27,13 @@ namespace ClaimsRolesToRolesModule
             if (ClaimsPrincipal.Current.Identity.IsAuthenticated)
             {
                 ClaimsIdentity claimsIdentity = ClaimsPrincipal.Current.Identity as ClaimsIdentity;
-                foreach (var claim in ClaimsPrincipal.Current.FindAll("roles"))
-                {
-                    var roleClaim = new Claim(claimsIdentity.RoleClaimType, claim.Value);
+                var roleClaims = ClaimsPrincipal.Current.FindAll("roles")
+                    .Select(c => new Claim(claimsIdentity.RoleClaimType, c.Value))
+                    .ToList();
+                foreach (var claim in roleClaims)
+                { 
                     claimsIdentity.AddClaim(claim);
-                    ModuleTrace.ClaimCopy(claim, roleClaim);
+                    ModuleTrace.AddedClaim(claim);
                 }
             }
         }
